@@ -508,6 +508,7 @@ const App: React.FC = () => {
           </div>
         </div>
 
+
         <div className="mt-auto">
           <p className="text-[#8c5a2b] text-[10px] tracking-widest font-bold uppercase opacity-60">
             © 2026 YUSHI MEDICAL EDUCATION
