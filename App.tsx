@@ -484,7 +484,6 @@ const App: React.FC = () => {
         </div>
 
         <div className="w-full h-px bg-[#ee9124]/10 mb-8 max-w-[320px]"></div>
-
         <div className="flex w-full max-w-[320px] items-stretch gap-6 mb-10">
           <div className="flex-1 text-left space-y-1.5">
             <h4 className="text-[#ee9124] font-bold text-[15px] mb-2">联系我们</h4>
