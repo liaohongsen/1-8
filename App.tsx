@@ -60,7 +60,7 @@ const PricingTable: React.FC<{ region: 'commonwealth' | 'asia' }> = ({ region })
     { label: '推荐信 RL', values: isCommonwealth ? [true, true] : [true, true, true] },
     { label: '材料翻译', values: isCommonwealth ? [true, true] : [false, true, true] },
     { label: '网申投递', values: isCommonwealth ? [true, true] : [true, true, true] },
-    { label: '笔面试', values: isCommonwealth ? [false, '1次'] : ['1次', '1次', '不限'] },
+    { label: '笔面试', values: isCommonwealth ? [false, '1次'] : ['1次', '1次', '1次'] },
     { label: '录取追踪', values: isCommonwealth ? [true, true] : [false, true, true] },
     { label: '签证指导', values: isCommonwealth ? [true, true] : [false, true, true] },
     { label: '住宿机票', values: isCommonwealth ? [true, true] : [false, true, true] },
