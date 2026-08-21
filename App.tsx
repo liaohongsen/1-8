@@ -421,7 +421,7 @@ const App: React.FC = () => {
               { label: '文书润色修改', price: '7 折', unit: '次', content: '语言与结构优化', desc: '对文书语言、逻辑结构与学术表达进行深度优化。需先评估。' },
               { label: '专业选择策略', price: '1500+', unit: '次', content: '多地区 2000 起', desc: '分析专业就业、案例背景，给出针对性的背景提升改进意见。' },
               { label: '网申系统支持', price: '150', unit: '所', content: '每所院校独立填写', desc: '材料检查，协助完成 system 填写、材料上传与提交。' },
-              { label: '硕士面试辅导', price: '1000', unit: '次', content: '模拟训练', desc: '针对目标项目形式模拟训练，涵盖问题拆解、表达应对。' },
+              { label: '硕士面试辅导', price: '1500', unit: '次', content: '模拟训练', desc: '针对目标项目形式模拟训练，涵盖问题拆解、表达应对。' },
             ].map((item, i) => (
               <SemiDIYItem key={i} {...item} price={item.price + (item.price.includes('折') ? '' : ' RMB')} />
             ))}
