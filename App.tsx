@@ -43,7 +43,7 @@ const PricingTable: React.FC<{ region: 'commonwealth' | 'asia' }> = ({ region })
 
   const submissionCounts = isCommonwealth
     ? ['最多 7-9 个 英澳新西兰 (非 G5) 混申', '最多 9-11 个 第一档学校 + 港/新/新加坡地区混申']
-    : ['1', '5-6 个 (不保底)', '7-9 个 (保底)'];
+    : ['1', '5-6 个', '7-9 个'];
 
   const prices = isCommonwealth
     ? ['13900', '16900']
