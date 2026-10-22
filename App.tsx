@@ -33,7 +33,6 @@ const FadeInSection: React.FC<{ title?: string; children: React.ReactNode; bg?: 
     </section>
   );
 };
-
 const PricingTable: React.FC<{ region: 'commonwealth' | 'asia' }> = ({ region }) => {
   const isCommonwealth = region === 'commonwealth';
 
